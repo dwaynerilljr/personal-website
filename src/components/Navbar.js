@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Nav() {
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 80) {
+            setNavbar(true);
+        } else {
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
     return (
         <React.Fragment>
-            <nav className="flex text-neon-teal text-2xl font-jura bg-transparent fixed w-full">
+            <nav className={navbar ? "bg-gradient-to-r from-default-black via-neon-teal to-neon-pink flex text-neon-teal text-2xl font-jura fixed w-screen" : "bg-transparent flex text-neon-teal text-2xl font-jura fixed w-screen"}>
                 <a href="https://www.google.com" className="hover:text-neon-pink flex p-6">Dwayne Rill Jr. | Web Developer</a>
                 <a href="https://www.google.com" className="hover:text-neon-pink p-6 ml-auto">About</a>
                 <a href="https://www.google.com" className="hover:text-neon-pink p-6">Projects</a>

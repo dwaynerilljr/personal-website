@@ -12,6 +12,12 @@ module.exports = {
       },
       fontFamily: {
         'jura': ["'Jura', 'sans'"]
+      },
+      height: {
+        'screen-75': "50vh",
+      },
+      backgroundImage: {
+        'split-bg': "linear-gradient(110deg, #ff2a6d 45%, #d1f7ff 45%)"
       }
     },
   },
