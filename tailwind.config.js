@@ -11,13 +11,17 @@ module.exports = {
         'default-black': '#01012b',
       },
       fontFamily: {
-        'jura': ["'Jura', 'sans'"]
+        'jura': ["'Jura', 'sans'"],
+        'audiowide': ["'Audiowide', 'sans'"]
       },
       height: {
         'screen-75': "50vh",
       },
       backgroundImage: {
-        'split-bg': "linear-gradient(110deg, #ff2a6d 45%, #d1f7ff 45%)"
+        'split-bg': "linear-gradient(110deg, #ff2a6d 45%, #fff 45%)"
+      },
+      fontSize: {
+        'text-2-1/5xl': '1.725rem',
       }
     },
   },

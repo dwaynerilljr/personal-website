@@ -22,7 +22,7 @@ export default function Hero() {
                         <a href="https://www.instagram.com/dwayne_devs" rel="noreferrer" target="_blank">
                             <RiInstagramLine size={40} className="mx-2 text-neon-pink hover:text-neon-teal" />
                         </a>
-                        <a href="https://www.instagram.com/dwaynerill_jr" rel="noreferrer" target="_blank">
+                        <a href="https://www.twitter.com/dwaynerill_jr" rel="noreferrer" target="_blank">
                             <RiTwitterLine size={40} className="text-neon-pink hover:text-neon-teal"/>
                         </a>
                     </div>
