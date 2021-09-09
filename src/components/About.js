@@ -6,13 +6,13 @@ import me from '../me2.svg';
 
 const About = () => {
     return (
-        <div className="bg-split-bg grid gap-x-10 text-default-black">
-            <div className="grid text-6xl font-lalezar col-span-full py-10 justify-center">
+        <div className="sm:bg-split-bg bg-neon-pink grid gap-x-10 text-default-black">
+            <div className="grid text-4xl sm:text-6xl font-lalezar col-span-full py-3 sm:py-10 justify-center">
                 <header>My Story</header>
             </div>
-            <div className="grid grid-cols-2 text-2xl justify-center gap-x-20 mb-20 font-jura">
-                <img src={me} alt="" className="w-full px-20" />
-                <div>
+            <div className="grid sm:grid-cols-2 text-base sm:text-2xl justify-center gap-x-20 mb-20 font-jura">
+                <img src={me} alt="" className="hidden sm:block w-full px-20" />
+                <div className="text-center sm:text-left">
                     <p>
                         Ever since I was old enough to know what I wanted to do, I knew that I wanted to be in 
                         tech somehow. Growing up in a rural Maryland town, it was hard to envision anything besides 

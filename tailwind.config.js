@@ -16,7 +16,7 @@ module.exports = {
         'lalezar': ["'Lalezar', 'sans'"]
       },
       height: {
-        'screen-75': "50vh",
+        'screen-50': "50vh",
       },
       backgroundImage: {
         'split-bg': "linear-gradient(110deg, #ff2a6d 45%, #fff 45%)",
