@@ -13,10 +13,6 @@ export default function Hero() {
                     I'm an Aspiring Full Stack Developer
                     <br />
                     This is my portfolio site!
-                    <h5 className="mt-4">My Socials:</h5>
-                    <div className="flex mt-1">
-                        
-                    </div>
                 </div>
             </div>
         </div>
