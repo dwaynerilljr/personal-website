@@ -7,7 +7,7 @@ import me from '../me2.svg';
 const About = () => {
     return (
         <div className="bg-split-bg grid gap-x-10 text-default-black">
-            <div className="grid text-5xl font-audiowide col-span-full py-10 justify-center">
+            <div className="grid text-6xl font-lalezar col-span-full py-10 justify-center">
                 <header>My Story</header>
             </div>
             <div className="grid grid-cols-2 text-2xl justify-center gap-x-20 mb-20 font-jura">

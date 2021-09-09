@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import './App.css';
 import Toolbox from './components/Toolbox';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Hero />
       <About />
       <Toolbox />
+      <Projects />
+      <Footer />
     </React.Fragment>
   );
 }

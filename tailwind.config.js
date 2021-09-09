@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'neon-pink': '#ff2a6d',
+        'neon-dark-pink': '#b31d4c',
         'neon-teal': '#05d9e8',
         'cyber-white': '#d1f7ff',
         'dark-teal': '#005678',
@@ -12,13 +13,14 @@ module.exports = {
       },
       fontFamily: {
         'jura': ["'Jura', 'sans'"],
-        'audiowide': ["'Audiowide', 'sans'"]
+        'lalezar': ["'Lalezar', 'sans'"]
       },
       height: {
         'screen-75': "50vh",
       },
       backgroundImage: {
-        'split-bg': "linear-gradient(110deg, #ff2a6d 45%, #fff 45%)"
+        'split-bg': "linear-gradient(110deg, #ff2a6d 45%, #fff 45%)",
+        'split-2': "linear-gradient(110deg, #05d9e8 45%, #ff2a6d 45%);"
       },
       fontSize: {
         'text-2-1/5xl': '1.725rem',
