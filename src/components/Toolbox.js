@@ -7,7 +7,7 @@ import { SiTailwindcss, SiBootstrap, SiRedux, SiJavascript, SiJquery, SiGit, SiN
 const Toolbox = () => {
     return (
         <React.Fragment>
-            <div className="grid sm:my-10 justify-center sm:text-6xl font-lalezar text-center">
+            <div className="grid sm:my-10 justify-center sm:text-6xl text-4xl font-lalezar text-center">
                 <header className="flex items-center text-center"> My Dev Toolkit</header>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 justify-items-center font-jura mb-10 text-neon-pink text-center">
