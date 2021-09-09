@@ -10,22 +10,22 @@ const Footer = () => {
                 <div className="flex flex-col items-center">
                     <header className="sm:text-3xl font-lalezar">Contact</header>
                     <a href="mailto:dwayne@dwaynerilljr.dev" className="flex items-center text-neon-pink hover:text-neon-teal mt-1">
-                        <AiOutlineMail size={25} />
+                        <AiOutlineMail size={24} className="mr-1" />
                         Email Me
                     </a>
                 </div>
                 <div className="flex flex-col items-center">
                     <header className="sm:text-3xl font-lalezar">Connect</header>
                     <a href="https://www.github.com/dwaynerilljr" rel="noreferrer" target="_blank" className="flex items-center text-neon-pink hover:text-neon-teal mt-1">
-                        <RiGithubLine size={25} />
+                        <RiGithubLine size={24} className="mr-1" />
                         GitHub
                     </a>
                     <a href="https://www.instagram.com/dwayne_devs" rel="noreferrer" target="_blank" className="flex items-center text-neon-pink hover:text-neon-teal my-1">
-                        <RiInstagramLine size={25} />
+                        <RiInstagramLine size={24} className="mr-1" />
                         Instagram
                     </a>
                     <a href="https://www.twitter.com/dwayne_devs" rel="noreferrer" target="_blank" className="flex items-center text-neon-pink hover:text-neon-teal">
-                        <RiTwitterLine size={25} />
+                        <RiTwitterLine size={24} className="mr-1" />
                         Twitter
                     </a>
                 </div>

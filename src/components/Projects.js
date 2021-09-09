@@ -22,7 +22,7 @@ const Projects = () => {
                     </p>
                     <div className="flex sm:justify-start justify-center gap-2">
                         <a href="https://www.github.com/dwaynerilljr/christmas-list-app" className="bg-neon-pink text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-dark-teal" rel="noreferrer" target="_blank">Github Repo</a>
-                        <a href="https://admiring-haibt-178288.netlify.app/" className="bg-neon-pink text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-dark-teal" rel="noreferrer" target="_blank">Live Demo</a>
+                        <a href="https://xmas-list.netlify.app/" className="bg-neon-pink text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-dark-teal" rel="noreferrer" target="_blank">Live Demo</a>
                     </div>
                 </div>
             </div>
