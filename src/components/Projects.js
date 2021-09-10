@@ -4,7 +4,7 @@ import xmas from "../christmas-app.png"
 
 const Projects = () => {
     return (
-        <div className="grid gap-x-10 text-neon-teal bg-default-black py-10">
+        <div className="grid gap-x-10 text-neon-teal bg-default-black py-10" id="projects">
             <div className="grid sm:text-6xl text-4xl font-lalezar col-span-full justify-center">
                 <header className="text-neon-pink">My Projects</header>
             </div>

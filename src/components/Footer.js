@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 const Footer = () => {
     return (
         <React.Fragment>
-            <div className="grid grid-cols-2 py-10 font-jura sm:text-2xl">
+            <div className="grid grid-cols-2 py-10 font-jura sm:text-2xl" id="footer">
                 <div className="flex flex-col items-center">
                     <header className="sm:text-3xl font-lalezar">Contact</header>
                     <a href="mailto:dwayne@dwaynerilljr.dev" className="flex items-center text-neon-pink hover:text-neon-teal mt-1">

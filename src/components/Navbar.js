@@ -20,12 +20,12 @@ export default function Nav() {
     return (
         <React.Fragment>
             <nav className={navbar ? filledBg : transparentBg}>
-                <a href="https://www.google.com" className="hover:text-neon-pink flex pl-2 sm:py-4">Dwayne Rill Jr. | Web Developer</a>
+                <a href="#home" className="hover:text-neon-pink flex pl-2 sm:py-4">Dwayne Rill Jr. | Web Developer</a>
                 <img src={logo} alt="" className="h-8 sm:h-16" />
                 <div className="sm:flex hidden">
-                    <a href="https://www.google.com" className="hover:text-neon-pink px-6">About</a>
-                    <a href="https://www.google.com" className="hover:text-neon-pink px-6">Projects</a>
-                    <a href="https://www.google.com" className="hover:text-neon-pink px-6">Contact</a>
+                    <a href="#about" className="hover:text-neon-pink px-6">About</a>
+                    <a href="#projects" className="hover:text-neon-pink px-6">Projects</a>
+                    <a href="#footer" className="hover:text-neon-pink px-6">Contact</a>
                 </div>
             </nav>
         </React.Fragment>
