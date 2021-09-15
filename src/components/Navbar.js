@@ -15,8 +15,8 @@ export default function Nav({ isOpen, toggle }) {
 
     window.addEventListener('scroll', changeBackgroundOnScroll);
 
-    const filledBg = "transition ease-in duration-200 z-50 bg-neon-teal flex flex-col md:flex-row md:items-center md:justify-center md:justify-between text-default-black text-lg md:text-2xl font-jura fixed w-screen"
-    const transparentBg = "transition ease-in duration-200 z-50 bg-transparent flex flex-col md:flex-row md:items-center md:justify-center md:justify-between text-neon-teal text-lg md:text-2xl font-jura fixed w-screen"
+    const filledBg = "md:transition md:ease-in md:duration-300 z-50 bg-neon-teal flex flex-col md:flex-row md:items-center md:justify-center md:justify-between text-default-black text-lg md:text-2xl font-jura fixed w-screen"
+    const transparentBg = "md:transition md:ease-in md:duration-300 z-50 bg-transparent flex flex-col md:flex-row md:items-center md:justify-center md:justify-between text-neon-teal text-lg md:text-2xl font-jura fixed w-screen"
 
     return (
         <React.Fragment>
