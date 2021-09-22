@@ -9,7 +9,7 @@ export default function Nav({ isOpen, toggle }) {
         if (window.scrollY >= 1) {
             setNavbar(true);
         } else {
-            setNavbar(false)
+            setNavbar(false);
         }
     }
 

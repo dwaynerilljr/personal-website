@@ -1,5 +1,6 @@
 import React from "react";
 import xmas from "../christmas-app.png"
+import knd from '../knights-and-dragons.png'
 
 
 const Projects = () => {
@@ -23,6 +24,24 @@ const Projects = () => {
                     <div className="flex sm:justify-start justify-center gap-2">
                         <a href="https://www.github.com/dwaynerilljr/christmas-list-app" className="bg-neon-pink text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-dark-teal" rel="noreferrer" target="_blank">Github Repo</a>
                         <a href="https://xmas-list.netlify.app/" className="bg-neon-pink text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-dark-teal" rel="noreferrer" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div className="grid sm:text-left sm:grid-cols-2 sm:text-2xl sm:justify-center font-jura py-10">
+                <img src={knd} alt="" className="w-full px-20 hidden sm:block" />
+                <div className="sm:text-left text-center">
+                    <header className="font-lalezar text-4xl">Knights & Dragons (In Progress)</header>
+                    <img src={knd} alt="" className="sm:hidden flex justify-center" />
+                    <p>
+                        A desktop fantasy card battling application that lets users select a character of their choice and then use that
+                        character to battle their way through a series of opponents!
+                    </p>
+                    <p className="sm:my-7 my-1">
+                        Made using CSS3, React, Tailwind and hosted with Netlify
+                    </p>
+                    <div className="flex sm:justify-start justify-center gap-2">
+                        <a href="https://www.github.com/dwaynerilljr/knights-and-dragons" className="bg-neon-pink text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-dark-teal" rel="noreferrer" target="_blank">Github Repo</a>
+                        <a href="https://knights-and-dragons.netlify.app/" className="bg-neon-pink text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-dark-teal" rel="noreferrer" target="_blank">Live Demo</a>
                     </div>
                 </div>
             </div>
