@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiReactjsLine, RiHtml5Line, RiCss3Line } from 'react-icons/ri';
-import { SiTailwindcss, SiBootstrap, SiRedux, SiJavascript, SiJquery, SiGit, SiNpm, SiYarn, SiNetlify } from 'react-icons/si';
+import { SiTailwindcss, SiBootstrap, SiNextDotJs, SiJavascript, SiGit, SiNpm, SiYarn, SiNetlify } from 'react-icons/si';
 
 
 
@@ -21,10 +21,9 @@ const Toolbox = () => {
                 <ul>
                     <header className="text-2xl sm:text-4xl mt-4 mb-1 font-lalezar text-default-black">Frameworks:</header>
                     <li className="flex sm:text-3xl items-center pb-1"> <RiReactjsLine size={25} className="mr-2" /> React</li>
+                    <li className="flex sm:text-3xl items-center pb-1"> <SiNextDotJs size={25} className="mr-2" /> Next.js</li>
                     <li className="flex sm:text-3xl items-center pb-1"> <SiTailwindcss size={25} className="mr-2" /> Tailwind</li>
                     <li className="flex sm:text-3xl items-center pb-1"> <SiBootstrap size={25} className="mr-2" /> Bootstrap</li>
-                    <li className="flex sm:text-3xl items-center pb-1"> <SiRedux size={25} className="mr-2" /> React Redux</li>
-                    <li className="flex sm:text-3xl items-center"> <SiJquery size={25} className="mr-2" /> jQuery</li>
                 </ul>
                 <ul>
                     <header className="text-2xl sm:text-4xl mt-4 mb-1 font-lalezar text-default-black">Other Tools:</header>

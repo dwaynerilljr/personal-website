@@ -11,9 +11,11 @@ const Projects = () => {
             </div>
             <div className="grid sm:text-left sm:grid-cols-2 sm:text-2xl sm:justify-center font-jura py-10">
                 <img src={xmas} alt="" className="w-full px-20 hidden sm:block" />
-                <div className="sm:text-left text-center">
+                <div className="sm:text-left text-center px-2">
                     <header className="font-lalezar text-4xl">Christmas List App</header>
-                    <img src={xmas} alt="" className="sm:hidden flex justify-center" />
+                    <div className="flex justify-center sm:hidden">
+                        <img src={xmas} alt="" className="w-5/6" />
+                    </div>
                     <p>
                         A Web app that lets users enter items to be rendered into their very
                         own Christmas list! Also has edit and delete functionality as well :)
@@ -29,9 +31,11 @@ const Projects = () => {
             </div>
             <div className="grid sm:text-left sm:grid-cols-2 sm:text-2xl sm:justify-center font-jura py-10">
                 <img src={knd} alt="" className="w-full px-20 hidden sm:block" />
-                <div className="sm:text-left text-center">
-                    <header className="font-lalezar text-4xl">Knights & Dragons (In Progress)</header>
-                    <img src={knd} alt="" className="sm:hidden flex justify-center" />
+                <div className="sm:text-left text-center px-2">
+                    <header className="font-lalezar text-4xl">Knights & Dragons</header>
+                    <div className="flex justify-center sm:hidden">
+                        <img src={knd} alt="" className="w-5/6" />
+                    </div>
                     <p>
                         A desktop fantasy card battling application that lets users select a character of their choice and then use that
                         character to battle their way through a series of opponents!
