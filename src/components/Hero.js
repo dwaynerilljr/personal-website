@@ -12,7 +12,7 @@ export default function Hero() {
                     <br />
                     I'm a Front-End Developer who builds cool things.
                     <br />
-                    <div className="font-jura py-2 text-sm">
+                    <div className="font-jura py-2 text-sm md:text-2xl">
                         Is that applause I hear?
                         <br />
                         No? Well, okay. 
