@@ -4,26 +4,28 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'neon-pink': '#ff2a6d',
-        'neon-dark-pink': '#b31d4c',
-        'neon-teal': '#05d9e8',
-        'cyber-white': '#d1f7ff',
-        'dark-teal': '#005678',
-        'default-black': '#01012b',
+        'primary': '#10a3a2',
+        'secondary': '#820b8a',
+        'ternary': '#005377',
+        'primary-light': '#9fdada',
       },
       fontFamily: {
-        'jura': ["'Jura', 'sans'"],
-        'lalezar': ["'Lalezar', 'sans'"]
+        'primary': ["'Raleway', 'sans'"],
+        'secondary': ["'Allan', 'sans'"]
       },
       height: {
-        'screen-50': "50vh",
+        'screen-75': "75vh",
+        'screen-50': "50vh"
       },
       backgroundImage: {
-        'split-bg': "linear-gradient(110deg, #ff2a6d 45%, #fff 45%)",
+        'split': "linear-gradient(110deg, #10a3a2 45%, #005377 45%)",
         'split-2': "linear-gradient(110deg, #05d9e8 45%, #ff2a6d 45%);"
       },
       fontSize: {
         'text-2-1/5xl': '1.725rem',
+      },
+      padding: {
+        '64': '68px'
       }
     },
   },

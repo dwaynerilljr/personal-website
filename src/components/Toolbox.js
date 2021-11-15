@@ -1,38 +1,24 @@
-import React from 'react';
-import { RiReactjsLine, RiHtml5Line, RiCss3Line } from 'react-icons/ri';
-import { SiTailwindcss, SiBootstrap, SiNextDotJs, SiJavascript, SiGit, SiNpm, SiYarn, SiNetlify } from 'react-icons/si';
+import { SiTailwindcss, SiReact, SiHtml5, SiCss3, SiBootstrap, SiJavascript, SiGit, SiNpm, SiYarn, SiNetlify } from 'react-icons/si';
 
 
 
 const Toolbox = () => {
     return (
-        <React.Fragment>
-            <div className="grid sm:my-10 justify-center sm:text-6xl text-4xl font-lalezar text-center">
-                <header className="flex items-center text-center"> My Dev Toolkit</header>
+        <div className="grid p-20 bg-split gap-y-2 grid-rows-2 h-full grid-cols-10 min-h-full" id="toolbox">
+            <header className="col-span-10 text-6xl text-white text-center font-secondary">My Dev Toolkit</header>
+            <div className="grid col-start-2 col-end-10 grid-cols-5 gap-4 text-3xl text-white font-primary">
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">JavaScript <SiJavascript  /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">CSS3 <SiCss3  /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">HTML5 <SiHtml5 /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">Git <SiGit /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">React <SiReact /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">Tailwind <SiTailwindcss /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">Bootstrap <SiBootstrap /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">NPM <SiNpm /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">Yarn <SiYarn /></span>
+                <span className="flex gap-y-2 border border-white p-2 flex-col items-center justify-center">Netlify <SiNetlify /></span>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 justify-items-center font-jura mb-10 text-neon-pink text-center">
-                <ul>
-                    <header className="text-2xl  sm:text-4xl mt-4 mb-1 font-lalezar text-default-black">Languages:</header>
-                    <li className="flex sm:text-3xl items-center pb-1"> <SiJavascript size={25} className="mr-2" /> JavaScript (ES6)</li>
-                    <li className="flex sm:text-3xl items-center pb-1"> <RiHtml5Line size={25} className="mr-2" /> HTML5 </li>
-                    <li className="flex sm:text-3xl items-center pb-1"><RiCss3Line size={25} className="mr-2" /> CSS3 </li>
-                    <li className="flex sm:text-3xl items-center"> <SiGit size={25} className="mr-2" /> Git</li>
-                </ul>
-                <ul>
-                    <header className="text-2xl sm:text-4xl mt-4 mb-1 font-lalezar text-default-black">Frameworks:</header>
-                    <li className="flex sm:text-3xl items-center pb-1"> <RiReactjsLine size={25} className="mr-2" /> React</li>
-                    <li className="flex sm:text-3xl items-center pb-1"> <SiNextDotJs size={25} className="mr-2" /> Next.js</li>
-                    <li className="flex sm:text-3xl items-center pb-1"> <SiTailwindcss size={25} className="mr-2" /> Tailwind</li>
-                    <li className="flex sm:text-3xl items-center pb-1"> <SiBootstrap size={25} className="mr-2" /> Bootstrap</li>
-                </ul>
-                <ul>
-                    <header className="text-2xl sm:text-4xl mt-4 mb-1 font-lalezar text-default-black">Other Tools:</header>
-                    <li className="flex sm:text-3xl items-center pb-1"> <SiNpm size={25} className="mr-2" /> NPM</li>
-                    <li className="flex sm:text-3xl items-center pb-1"> <SiYarn size={25} className="mr-2" /> Yarn</li>
-                    <li className="flex sm:text-3xl items-center pb-1"> <SiNetlify size={25} className="mr-2" /> Netlify</li>
-                </ul>
-            </div>
-        </React.Fragment>
+        </div>
     )
 }
 

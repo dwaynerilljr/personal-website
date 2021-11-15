@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import logo from '../no-bg-nav.svg'
+import { useState } from 'react';
 import { FaHamburger } from 'react-icons/fa'
 
 export default function Nav({ isOpen, toggle }) {
@@ -15,14 +14,14 @@ export default function Nav({ isOpen, toggle }) {
 
     window.addEventListener('scroll', changeBackgroundOnScroll);
 
-    const filledBg = "md:transition md:ease-in md:duration-300 z-50 bg-neon-teal flex flex-col md:flex-row md:items-center md:justify-center md:justify-between text-default-black text-lg md:text-2xl font-jura fixed w-screen"
-    const transparentBg = "md:transition md:ease-in md:duration-300 z-50 bg-transparent flex flex-col md:flex-row md:items-center md:justify-center md:justify-between text-neon-teal text-lg md:text-2xl font-jura fixed w-screen"
+    const filledBg = "font-semibold md:transition md:ease-in md:duration-300 z-50 bg-secondary flex flex-col md:flex-row md:items-center md:justify-center md:justify-between text-white text-lg md:text-2xl font-primary fixed w-screen"
+    const transparentBg = "font-semibold md:transition md:ease-in md:duration-300 z-50 bg-transparent flex flex-col md:flex-row md:items-center md:justify-center md:justify-between text-white text-lg md:text-2xl font-primary fixed w-screen"
 
     return (
-        <React.Fragment>
+        <>
             <nav className={navbar ? filledBg : transparentBg} id="nav">
-                <div className="flex items-center">
-                    <a href="#home" className="hover:text-neon-pink flex pl-2 md:py-4 mr-auto md:mr-0">Dwayne Rill Jr. | Web Developer</a>
+                <div className="flex items-center font-secondary text-3xl">
+                    <a href="#home" className="hover:text-ternary flex pl-2 md:py-4 mr-auto md:mr-0">Dwayne Rill Jr. | Web Developer</a>
                     <div 
                         className="md:hidden"
                         onClick={toggle}
@@ -30,11 +29,10 @@ export default function Nav({ isOpen, toggle }) {
                         <FaHamburger className="mr-2" />
                     </div>
                 </div>
-                <img src={logo} alt="" className="h-8 md:flex hidden md:h-16" />
                 <div className="md:flex hidden">
-                    <a href="#about" className="hover:text-neon-pink px-6">About</a>
-                    <a href="#projects" className="hover:text-neon-pink px-6">Projects</a>
-                    <a href="#footer" className="hover:text-neon-pink px-6">Contact</a>
+                    <a href="#about" className="hover:text-primary px-6">About</a>
+                    <a href="#projects" className="hover:text-primary px-6">Projects</a>
+                    <a href="#footer" className="hover:text-primary px-6">Contact</a>
                 </div>
                 <div className={
                 isOpen 
@@ -43,11 +41,11 @@ export default function Nav({ isOpen, toggle }) {
                 }
                 onClick={toggle}
                 >
-                    <a href="#about" className="hover:text-neon-pink text-default-black">About</a>
-                    <a href="#projects" className="hover:text-neon-pink text-default-black p-0 md:px-6">Projects</a>
-                    <a href="#footer" className="hover:text-neon-pink text-default-black md:px-6">Contact</a>
+                    <a href="#about" className="hover:text-primary text-default-black">About</a>
+                    <a href="#projects" className="hover:text-primary text-default-black p-0 md:px-6">Projects</a>
+                    <a href="#footer" className="hover:text-primary text-default-black md:px-6">Contact</a>
                 </div>
             </nav>
-        </React.Fragment>
+        </>
     )
 }
