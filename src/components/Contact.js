@@ -6,14 +6,14 @@ import ContactForm from './ContactForm';
 const Footer = () => {
     return (
         <>
-            <div className="grid grid-cols-8 h-screen-75 font-jura 2xl:text-2xl text-lg text-ternary mt-10" id="footer">
-                <div className="col-span-3 text-white font-regular text-3xl flex flex-col items-center justify-center gap-y-10 col-start-2" id="contact">
+            <div className="grid grid-cols-2 md:grid-cols-8 h-full xl:h-screen-75 2xl:text-2xl text-lg text-ternary pt-10 md:pt-0 md:mt-10" id="footer">
+                <div className="col-span-2 md:col-span-3 text-white font-regular md:text-3xl flex flex-col items-center justify-center gap-y-10 md:col-start-2" id="contact">
                     <div className="flex flex-col items-center text-center">
                         <span>Like my work?  </span>
                         <span>Then reach out to me and we can begin building your next project!</span>
-                        <span className="mt-2 arrow-bounce self-center" id="arrow"><IoArrowForwardCircleSharp size={64} /></span>
+                        <span className="mt-2 arrow-bounce self-center hidden md:block" id="arrow"><IoArrowForwardCircleSharp size={64} /></span>
                     </div>
-                    <div className="flex items-center col-span-2 text-4xl gap-x-10">
+                    <div className="md:flex hidden items-center md:text-4xl md:gap-x-10">
                         <a href="https://www.twitter.com/dwayne_devs" rel="noreferrer" target="_blank" className="flex items-center hover:text-secondary">
                             <SiTwitter className="mr-1" />
                         </a>
@@ -25,8 +25,22 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-                <div className="grid grid-cols-4 col-span-3 items-center">
+                <div className="grid lg:grid-cols-4 col-span-2 md:col-span-3 md:items-center my-5 md:my-0">
                     <ContactForm />
+                </div>
+                <div className="grid col-span-2 py-5 justify-items-center text-xl md:hidden text-white">
+                        <header className="font-semibold">Connect on Social</header>
+                        <div className="flex gap-x-5">
+                            <a href="https://www.twitter.com/dwayne_devs" rel="noreferrer" target="_blank" className="flex items-center hover:text-secondary">
+                                <SiTwitter className="mr-1" />
+                            </a>
+                            <a href="https://www.github.com/dwaynerilljr" rel="noreferrer" target="_blank" className="flex items-center hover:text-secondary">
+                                <SiGithub className="mr-1" />
+                            </a>
+                            <a href="https://www.instagram.com/dwayne_devs" rel="noreferrer" target="_blank" className="flex items-center hover:text-secondary my-1">
+                                <SiInstagram className="mr-1" />
+                            </a>
+                        </div>
                 </div>
             </div>
         </>

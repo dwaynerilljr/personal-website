@@ -5,15 +5,16 @@ import me from '../about.jpg';
 
 const About = () => {
     return (
-        <div className="md:bg-white bg-white grid gap-x max-w-full" id="about">
-            <div className="grid md:grid-cols-11 text-sm md:text-xl justify-center px-5 md:px-0 gap-x font-primary">
-                <div className="flex items-center col-start-2 col-span-4">
-                    <img src={me} alt="" className="px-10 my-10" />
+        <div className="md:bg-white bg-white grid gap-x max-w-full py-5" id="about">
+            <div className="grid grid-cols-2 md:grid-cols-6 xl:grid-cols-11 text-sm md:text-xl justify-items-center md:justify-items-start px-5 md:px-0 gap-x font-primary">
+                <header className="text-3xl font-secondary col-span-2 justify-center text-ternary my-4 border-b-2 border-secondary w-5/6 flex md:hidden">Let me introduce myself</header>
+                <div className="flex items-center xl:col-start-2 col-span-2 md:col-span-3 xl:col-span-4">
+                    <img src={me} alt="" className="lg:px-10 lg:my-10" />
                 </div>
-                <div className="flex flex-col sm:text-left text-ternary justify-center col-span-5">
-                    <header className="text-3xl font-secondary my-4">Let me introduce myself</header>
-                    <hr className="h-1 bg-secondary w-32" />
-                    <div className="pr-4 my-4 grid gap-y-5 text-base">
+                <div className="flex flex-col sm:text-left text-ternary justify-center col-span-2 items-center text-center md:col-span-3 xl:col-span-5 md:p-4">
+                    <header className="text-3xl font-secondary my-4 hidden md:flex">Let me introduce myself</header>
+                    <hr className="h-1 bg-secondary w-32 hidden md:flex" />
+                    <div className="pr-4 my-4 grid gap-y-5 text-sm md:text-base overflow-y-scroll xl:h-auto md:h-4/6">
                         <div className="flex flex-col">
                             <header className="text-2xl font-secondary">Who I Am</header>
                             <p className="mb-4">

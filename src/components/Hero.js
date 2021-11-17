@@ -4,9 +4,9 @@ import me from '../headshot.svg'
 
 export default function Hero() {
     return (
-        <div className="md:h-full h-full bg-primary grid grid-cols-8 justify-center font-secondary font-semibold pt-64" id="home">
-            <img src={me} alt="" className="col-start-1 col-span-4 w-full"/>
-            <div className="flex items-center text-white text-5xl col-span-3">
+        <div className="h-full bg-primary grid grid-cols-2  md:grid-cols-8 justify-items-center md:justify-center font-secondary font-semibold py-64" id="home">
+            <img src={me} alt="" className="md:col-start-1 col-span-4 w-4/6 md:w-full"/>
+            <div className="flex items-center text-white md:text-5xl col-span-3 text-center">
                 <p>
                     Hello! I'm Dwayne
                     <br />
