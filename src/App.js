@@ -5,6 +5,7 @@ import About from './components/About'
 import './App.css';
 import Toolbox from './components/Toolbox';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <About />
       <Toolbox />
       <Projects />
+      <Contact />
       <Footer />
     </>
   );

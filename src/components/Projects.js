@@ -33,8 +33,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="flex gap-2">
-                        <a href="https://www.github.com/dwaynerilljr/christmas-list-app" className="bg-primary text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Github Repo</a>
-                        <a href="https://xmas-list.netlify.app/" className="bg-primary text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Live Demo</a>
+                        <a href="https://www.github.com/dwaynerilljr/christmas-list-app" className="bg-primary text-white text-center 2xl:text-2xl text-lg border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Github Repo</a>
+                        <a href="https://xmas-list.netlify.app/" className="bg-primary text-white text-center 2xl:text-2xl text-lg border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Live Demo</a>
                     </div>
             </div>
             <div className="flex text-ternary flex-col items-center gap-4 p-4 col-span-2 py-10 h-full shadow-2xl border border-secondary">
@@ -59,8 +59,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="flex sm:justify-start justify-center gap-2">
-                        <a href="https://www.github.com/dwaynerilljr/knights-and-dragons" className="bg-primary text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Github Repo</a>
-                        <a href="https://knights-and-dragons.netlify.app/" className="bg-primary text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Live Demo</a>
+                        <a href="https://www.github.com/dwaynerilljr/knights-and-dragons" className="bg-primary text-white text-center 2xl:text-2xl text-lg border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Github Repo</a>
+                        <a href="https://knights-and-dragons.netlify.app/" className="bg-primary text-white text-center 2xl:text-2xl text-lg border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Live Demo</a>
                     </div>
             </div>
             <div className="flex text-ternary flex-col items-center gap-4 p-4 col-span-2 py-10 shadow-2xl border border-secondary">
@@ -71,9 +71,7 @@ const Projects = () => {
                         <img src={rta} alt="" className="w-5/6" />
                     </div>
                     <p className="text-center h-40">
-                        A desktop fantasy card battling application that lets users select a character of their choice and then use that
-                        character to battle their way through a series of opponents! select a character of their choice and then use that
-                        character to battle their way through a series of opponents!
+                        A website for anime lovers to discuss, find and rate their favorite anime, manga and light novels! 
                     </p>
                     <div className="flex flex-col gap-2 items-center text-xl font-semibold mt-auto">
                         Technologies used:
@@ -82,11 +80,10 @@ const Projects = () => {
                             <SiJavascript />
                             <SiReact />
                             <SiTailwindcss />
-                            <SiNetlify />
                         </div>
                     </div>
                     <div className="flex sm:justify-start justify-center justify-self-end gap-2">
-                        <a href="https://www.github.com/dwaynerilljr/knights-and-dragons" className="bg-primary text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Github Repo</a>
+                        <a href="https://www.github.com/dwaynerilljr/knights-and-dragons" className="bg-primary text-white text-center 2xl:text-2xl text-lg border-none rounded-md p-2 hover:bg-secondary" rel="noreferrer" target="_blank">Github Repo</a>
                         {/* <a href="https://knights-and-dragons.netlify.app/" className="bg-secondary text-white text-center sm:text-2xl border-none rounded-md p-2 hover:bg-primary" rel="noreferrer" target="_blank">Live Demo</a> */}
                     </div>
             </div>

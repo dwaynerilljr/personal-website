@@ -14,7 +14,7 @@ module.exports = {
         'secondary': ["'Allan', 'sans'"]
       },
       height: {
-        'screen-75': "75vh",
+        'screen-75': "85vh",
         'screen-50': "50vh"
       },
       backgroundImage: {
