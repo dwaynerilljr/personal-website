@@ -9,10 +9,10 @@ const Projects = () => {
     return (
         <div className="grid gap-12 md:gap-10 grid-cols-2 md:grid-cols-6 xl:grid-cols-8 p-5 md:py-10 justify-items-center" id="projects">
             <div className="grid sm:text-6xl text-2xl col-span-2 sm:col-span-full justify-center">
-                <header className="text-primary font-secondary">My Projects</header>
+                <header className="text-primary font-secondary text-3xl">My Projects</header>
             </div>
             <div className="flex text-ternary flex-col items-center gap-2 md:gap-4 p-4 col-span-2 xl:col-start-2 md:py-10 h-full shadow-2xl border border-secondary">
-                    <header className="font-secondary text-primary text-lg md:text-4xl">Christmas List App</header>
+                    <header className="font-secondary text-primary text-xl md:text-4xl">Christmas List App</header>
                     <hr className="h-1 bg-secondary w-12 md:w-32" />
                     <img src={xmas} alt="" className="hidden p-1 sm:block border border-primary" />
                     <div className="flex justify-center sm:hidden">
@@ -38,11 +38,11 @@ const Projects = () => {
                     </div>
             </div>
             <div className="flex text-ternary flex-col items-center gap-2 md:gap-4 p-4 col-span-2 md:py-10 h-full shadow-2xl border border-secondary">
-                    <header className="font-secondary text-primary text-lg md:text-4xl">Knights & Dragons</header>
+                    <header className="font-secondary text-primary text-xl md:text-4xl">Knights & Dragons</header>
                     <hr className="h-1 bg-secondary w-12 md:w-32" />
                     <img src={knd} alt="" className="hidden p-1 sm:block border border-primary" />
                     <div className="flex justify-center sm:hidden">
-                        <img src={knd} alt="" className="w-5/6" />
+                        <img src={knd} alt="" />
                     </div>
                     <p className="text-center md:text-base text-sm">
                         A desktop fantasy card battling application that lets users select a character of their choice and then use that
@@ -64,11 +64,11 @@ const Projects = () => {
                     </div>
             </div>
             <div className="flex text-ternary flex-grow flex-col items-center gap-2 md:gap-4 p-4 col-span-2 md:py-10 h-full shadow-2xl border border-secondary">
-                    <header className="font-secondary text-primary text-lg md:text-4xl">RateThatAnime</header>
+                    <header className="font-secondary text-primary text-xl md:text-4xl">RateThatAnime</header>
                     <hr className="h-1 bg-secondary w-12 md:w-32" />
                     <img src={rta} alt="" className="hidden p-1 sm:flex border border-primary" />
                     <div className="flex justify-center sm:hidden">
-                        <img src={rta} alt="" className="w-5/6" />
+                        <img src={rta} alt="" />
                     </div>
                     <p className="text-center md:text-base text-sm">
                     A website for anime lovers to discuss, find and rate their favorite anime, manga and light novels!
