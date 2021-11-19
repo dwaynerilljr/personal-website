@@ -19,7 +19,6 @@ export default function ContactForm() {
 
     const handleChange = (e) => {
         setToSend({...toSend, [e.target.name]: e.target.value })
-        console.log(toSend)
     }
 
     const handleSubmit = (e) => {
