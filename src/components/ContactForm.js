@@ -6,7 +6,6 @@ export default function ContactForm() {
         from_name: '',
         message: '',
         reply_to: '',
-        'g-recaptcha-response': '6Ld75T4dAAAAACVMxLk2AdBK8gJdEuOu76iTJ4GX'
     });
 
     const resetForm = () => {
@@ -76,7 +75,6 @@ export default function ContactForm() {
                     cols="30" 
                     rows="7" 
                 />
-                <div className="g-recaptcha" data-sitekey="6Ld75T4dAAAAAJlqagywWsOWjAkPR8bfavW-bfm1"></div>
                 <button type="submit" className="border border-secondary hover:bg-secondary hover:text-white p-2 w-5/6 text-ternary font-semibold rounded-3xl self-center mt-5">Submit</button>
             </form>
         </div>

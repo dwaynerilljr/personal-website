@@ -38,7 +38,7 @@ const Projects = () => {
                     </div>
             </div>
             <div className="flex text-ternary flex-col items-center gap-2 md:gap-4 p-4 col-span-2 md:py-10 h-full shadow-2xl border border-secondary">
-                    <header className="font-secondary text-primary text-xl md:text-4xl">Knights & Dragons</header>
+                    <header className="font-secondary text-primary text-xl md:text-4xl">Knights & Dragons (Desktop Only, Mobile coming soon!)</header>
                     <hr className="h-1 bg-secondary w-12 md:w-32" />
                     <img src={knd} alt="" className="hidden p-1 sm:block border border-primary" />
                     <div className="flex justify-center sm:hidden">
@@ -64,7 +64,7 @@ const Projects = () => {
                     </div>
             </div>
             <div className="flex text-ternary flex-grow flex-col items-center gap-2 md:gap-4 p-4 col-span-2 md:py-10 h-full shadow-2xl border border-secondary">
-                    <header className="font-secondary text-primary text-xl md:text-4xl">RateThatAnime</header>
+                    <header className="font-secondary text-primary text-xl md:text-4xl">PokeStox (In progress)</header>
                     <hr className="h-1 bg-secondary w-12 md:w-32" />
                     <img src={rta} alt="" className="hidden p-1 sm:flex border border-primary" />
                     <div className="flex justify-center sm:hidden">
