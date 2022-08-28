@@ -30,7 +30,7 @@ function App() {
       <Navbar isOpen={isOpen} toggle={toggle} />
       <Hero />
       <About />
-      <Toolbox />
+      {/* <Toolbox /> */}
       <Projects />
       <Contact />
       <Footer />

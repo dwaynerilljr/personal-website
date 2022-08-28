@@ -4,17 +4,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary': '#10a3a2',
-        'secondary': '#820b8a',
-        'ternary': '#005377',
-        'primary-light': '#9fdada',
+        'primary': '#329ffe',
+        'secondary': '#F0C808',
+        'ternary': '#d65780',
+        'light': '#fefae6',
+        'primary-light': '#ebf5ff',
+        'ternary-light': '#f7dde6'
       },
       fontFamily: {
-        'primary': ["'Raleway', 'sans'"],
+        'primary': ['"Josefin Sans", "sans"'],
         'secondary': ["'Allan', 'sans'"]
       },
       height: {
-        'screen-75': "85vh",
+        '75v': "75vh",
+        '80v': "80vh",
         'screen-50': "50vh"
       },
       backgroundImage: {
